@@ -1,0 +1,53 @@
+RUDRAMADHAB MISHRA
++91- 6303448362 | rudramadhabmishra567@gmail.com | Github | LinkedIn
+
+
+EDUCATION
+
+Udaya Nath Autonomous College	August 2023 - 2026
+Bachelor of Computer Application (BCA) | Cuttack, Odisha 
+
+PROFESSIONAL SUMMARY
+AI/ML Engineer and Python Developer with hands-on experience designing and deploying intelligent systems using Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), and cloud-based AI infrastructure.
+Proficient in building end-to-end machine learning pipelines — from data preprocessing, feature engineering, and model training using scikit-learn, to deploying generative AI solutions with Azure OpenAI, LangChain, and vector databases such as ChromaDB.
+Experienced in developing interactive AI-powered applications using Streamlit, building REST APIs with FastAPI, and delivering data-driven insights through advanced analytics and visualization using Pandas, NumPy, Matplotlib, and Seaborn.
+
+EXPERIENCE
+PERFORMALYTIC (INDIA) PRIVATE LIMITED —AI Engineer                                        August 2025 – Present
+●	Design and build agentic AI systems using LangChain and LangGraph to automate multi-step reasoning, tool calling, and decision workflows on top of enterprise data sources.
+●	Develop and expose REST APIs using FastAPI to serve LLM-powered agents, enabling seamless integration between agentic workflows and downstream applications.
+●	Integrate LangGraph-based stateful agent orchestration with enterprise data pipelines to enable context-aware automation of reporting and analytics tasks.
+●	Collaborate with cross-functional teams to translate business reporting and analytics requirements into automated, agent-driven workflows.
+Tools & Technologies: SQL Server, Lang Chain, Lang Graph, Fast API, Python ,RAG 
+
+TECHNICAL SKILLS
+●	AI/LLM Engineering: Agentic AI Systems, LangChain, LangGraph, Retrieval-Augmented Generation (RAG), Prompt Engineering, Azure OpenAI, NLP
+●	Machine Learning: Regression, Classification, Clustering, Recommendation Systems
+●	Vector Databases: ChromaDB, pgvector ,Faiss , Pinecone
+●	Backend & APIs: FastAPI, REST API Design, Streamlit
+●	Languages & Libraries: Python, Pandas, NumPy, Matplotlib,  Seaborn , Scikit-learn
+●	Databases: PostgreSQL, MySQL, SQL Server
+●	Tools & Deployment: Docker, Git/GitHub, Jupyter Notebook, VS Code
+
+PROJECTS
+DQAgent – Agentic Data Quality Root Cause & Fix Suggestion System
+Tools: Python, LangChain, LangGraph, FastAPI, Azure OpenAI, Pandas, SQL Server
+
+•	Built a production multi-agent system for 4DAlert, the company’s data quality monitoring application, that automatically analyzes failed/outlier records flagged by rule checks and diagnoses their root cause.
+•	Designed a LangGraph orchestration workflow with a dynamic router node that inspects each failed record’s rule type (Null Check, Distinct Check, Blank/Non-Blank, Enumerated Value, Unsupervised Outlier, and more) and dispatches it to the corresponding specialized agent node.
+•	Used LangChain with an Azure OpenAI model inside each rule-specific agent to reason over the failing column, table, and value context and generate a targeted root-cause explanation for the data quality violation.
+•	Generated ready-to-run SQL query suggestions as remediation steps for each identified issue, and used Pandas to fetch, classify, and aggregate outlier records prior to agent analysis.
+•	Exposed the agent workflow through a FastAPI service, enabling 4DAlert to trigger root-cause analysis and fix suggestions on demand for any failed data object.
+•	Impact: Reduced manual root-cause investigation effort for data quality failures by automating analysis and fix recommendations across dozens of rule types, cutting the time to resolve flagged outlier records in production datasets.
+Database-Backed RAG System using pgvector
+            Tools: Python, PostgreSQL, Pgvector, Azure OpenAI, Lang Chain, FastAPI
+•	Built a RAG system that pulls data straight from a PostgreSQL database instead of separate documents.
+•	Converted database records into embeddings using Azure OpenAI and stored them in PostgreSQL with the pgvector extension.
+•	When a user asks a question, the query is converted into an embedding, matched against pgvector to find the most relevant records, and passed to an LLM to generate the answer.
+•	Used Lang Chain to connect the embedding, retrieval, and answer-generation steps.
+•	Kept everything in one database (no separate vector DB), making the system simpler to build and maintain.
+•	Impact: Let users ask questions in plain language and get accurate answers straight from live database data, cutting down on manual SQL queries.
+CERTIFICATION
+•	SQL with Microsoft Server – Infosys Springboard
+•	Data Visualization with Power BI – Great Learning
+•	SQL with Relational Database – IBM Cognitive Class
